@@ -2081,8 +2081,8 @@
 			children = (
 				1B0626AA1746998D00E51308 /* Libmacgpg.framework */,
 				1B73B8D81BB20787007D601B /* UnitTests.xctest */,
-				1B0626B21746998D00E51308 /* LeakFinder.app */,
 				1B0626AE1746998D00E51308 /* org.gpgtools.Libmacgpg.xpc */,
+				1B0626B21746998D00E51308 /* LeakFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3928,7 +3928,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1100;
 				TargetAttributes = {
 					1B87635E1786020900B24BBC = {
 						TestTargetID = 8D5B49AC048680CD000E48DA;
@@ -3940,6 +3940,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 				fr,
 				fi,
@@ -3995,7 +3996,7 @@
 		};
 		1B0626AE1746998D00E51308 /* org.gpgtools.Libmacgpg.xpc */ = {
 			isa = PBXReferenceProxy;
-			fileType = "wrapper.xpc-service";
+			fileType = "compiled.mach-o.executable";
 			path = org.gpgtools.Libmacgpg.xpc;
 			remoteRef = 1B0626AD1746998D00E51308 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;

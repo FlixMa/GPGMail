@@ -850,11 +850,12 @@ static BOOL gpgMailWorks = NO;
 }
 
 - (NSNumber *)remainingTrialDays {
-    NSDictionary *contractInformation = [self contractInformation];
+    /*NSDictionary *contractInformation = [self contractInformation];
     if(!contractInformation[@"ActivationRemainingTrialDays"]) {
         return @(30);
     }
-    return contractInformation[@"ActivationRemainingTrialDays"];
+    return contractInformation[@"ActivationRemainingTrialDays"];*/
+    return @(42);
 }
 
 - (void)startSupportContractWizard {
@@ -877,7 +878,7 @@ static BOOL gpgMailWorks = NO;
 }
 
 - (BOOL)shouldShowSupportPlanActivationDialog {
-    if(![self hasActiveContractOrActiveTrial]) {
+    /*if(![self hasActiveContractOrActiveTrial]) {
         [self saveDateActivationDialogWasLastShown];
         return YES;
     }
@@ -912,7 +913,7 @@ static BOOL gpgMailWorks = NO;
     if([difference day] >= 3) {
         [self saveDateActivationDialogWasLastShown];
         return YES;
-    }
+    }*/
     return NO;
 }
 
